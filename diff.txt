@@ -1,0 +1,72 @@
+diff --git a/tekst.txt b/tekst.txt
+index 4353996..0f88125 100644
+--- a/tekst.txt
++++ b/tekst.txt
+@@ -5,6 +5,4 @@ git init
+ touch tekst.txt
+ git status
+ git add .
+-git commit -m "Początek projektu"
+-
+-Punkt6 04.11.2022 13:17
+\ No newline at end of file
++git commit -m "Początek projektu"
+\ No newline at end of file
+diff --git a/wariant2.txt b/wariant2.txt
+deleted file mode 100644
+index 717aae4..0000000
+--- a/wariant2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Wersja główna
+\ No newline at end of file
+
+$ git diff master wariant2
+diff --git a/Punkt8.jpg b/Punkt8.jpg
+new file mode 100644
+index 0000000..f680362
+Binary files /dev/null and b/Punkt8.jpg differ
+diff --git a/Punkt9.txt b/Punkt9.txt
+new file mode 100644
+index 0000000..ecc6a92
+--- /dev/null
++++ b/Punkt9.txt
+@@ -0,0 +1 @@
++13:24
+\ No newline at end of file
+diff --git a/wariant2.txt b/wariant2.txt
+index 717aae4..05a86d4 100644
+--- a/wariant2.txt
++++ b/wariant2.txt
+@@ -1 +1 @@
+-Wersja główna
+\ No newline at end of file
++Wersja pierwsza
+\ No newline at end of file
+
+
+$ git diff wariant1 wariant2
+diff --git a/Punkt8.jpg b/Punkt8.jpg
+new file mode 100644
+index 0000000..f680362
+Binary files /dev/null and b/Punkt8.jpg differ
+diff --git a/Punkt9.txt b/Punkt9.txt
+new file mode 100644
+index 0000000..ecc6a92
+--- /dev/null
++++ b/Punkt9.txt
+@@ -0,0 +1 @@
++13:24
+\ No newline at end of file
+diff --git a/tekst.txt b/tekst.txt
+index 0f88125..4353996 100644
+--- a/tekst.txt
++++ b/tekst.txt
+@@ -5,4 +5,6 @@ git init
+ touch tekst.txt
+ git status
+ git add .
+-git commit -m "Początek projektu"
+\ No newline at end of file
++git commit -m "Początek projektu"
+

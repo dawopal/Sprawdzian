@@ -1,0 +1,8 @@
+cd documents
+mkdir Spr_git_Dawid_Pałamarz
+cd Spr_git_Dawid_Pałamarz
+git init
+touch tekst.txt
+git status
+git add .
+git commit -m "Początek projektu"
